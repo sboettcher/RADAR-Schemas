@@ -1,0 +1,10 @@
+{
+  "namespace": "org.radarcns.eegsync",
+  "type": "record",
+  "name": "EEGSyncPulse",
+  "doc": "Event mark corresponding to a pulse sent to an EEG machine.",
+  "fields": [
+    {"name": "time", "type": "double", "doc": "device timestamp in UTC (s)"},
+    {"name": "timeReceived", "type": "double", "doc": "device receiver timestamp in UTC (s)"}
+  ]
+}
