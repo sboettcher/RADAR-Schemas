@@ -1,0 +1,13 @@
+#===================================== Biovotion VSM1 Everion =====================================#
+vendor: EEG
+model: SYNC
+version: 1.0.0
+app_provider: .eegsync.EEGSyncProvider
+data:
+  - type: PULSE
+    unit: SECOND
+    processing_state: RAW
+    topic: android_eeg_sync_pulse
+    value_schema: .passive.eegsync.EegSyncPulse
+    sample_rate:
+      frequency: 1
