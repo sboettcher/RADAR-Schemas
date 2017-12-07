@@ -1,4 +1,7 @@
 name: THINCIT
+vendor: App
+model: THINC-IT
+version: v1
 assessment_type: APP
 doc: ThincIt Cognition in Depression app.
 data:
@@ -14,3 +17,6 @@ data:
   - type: THINCIT_TRAILS
     topic: thincit_trails
     value_schema: .active.thincit.ThincItTrails
+  - type: THINCIT_PDQ5
+    topic: thincit_pdq5
+    value_schema: .active.thincit.ThincItPdq
